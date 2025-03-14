@@ -1,0 +1,20 @@
+{
+  "name": "github-packages-sample-app",
+  "version": "1.0.0",
+  "description": "Sample app for GitHub Packages module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "genzouw",
+  "license": "ISC",
+  "dependencies": {
+    "@genzouw/github-packages-sample-module": "github:genzouw/github-packages-sample-module",
+    "lodash": "^4.17.21"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/genzouw/github-packages-sample-app.git"
+  }
+}
